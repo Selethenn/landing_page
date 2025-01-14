@@ -1,12 +1,11 @@
 /* Style CSS File */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;900&display=swap');
 
  /* * { border: 1px solid red; }  */
 
 body {
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     font-family: Roboto, sans-serif;
     color: #F9FAF8;
     color: black;
@@ -47,6 +46,7 @@ navbar ul {
 }
 navbar a {
     color: #F9FAF8;
+    font-weight: 400;
     text-decoration: none;
 }
 /*Hero Section*/
@@ -69,6 +69,7 @@ navbar a {
 }
 .hero .card p {
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
 }
 .hero button, .hero button a {
@@ -89,6 +90,42 @@ navbar a {
     background-color: grey;
     width: 350px;
     height: 250px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+.content h1 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+.carousel_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    gap: 1rem;
+}
+.carousel_item img {
+    border: 2px solid #1F2937;
+    border-radius: 8px;
+}
+.carousel_text {
+    color: #1F2937;
+    font-weight: 400;
+    width: 150px;
 }
 
 
