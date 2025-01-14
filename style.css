@@ -1,8 +1,7 @@
 /* Style CSS File */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* * { border: 1px solid red; } */
-* {flex-wrap: wrap;}
+ * { border: 1px solid red; } 
 
 body {
     height: 100vh;
@@ -13,19 +12,19 @@ body {
 } 
 .header {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex: 0;
     background-color: #1F2937;
     padding-bottom: 3rem;
-    
 }
 
 .header_bar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    margin-bottom: 3rem;
+    /* margin: 1rem 10rem; */
+    padding: 1rem 10rem;
 }
 
 .logo  {
@@ -34,6 +33,7 @@ body {
 }
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,8 +46,11 @@ a {
 }
 .header_body {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    padding: 0rem 10rem;
+    gap: 2rem;
 }
 .welcome {
     display: flex;
@@ -60,7 +63,6 @@ a {
     font-weight: 800;
     line-height: .9;
 }
-
 .welcome p {
     margin: 10px 0px;
 }
@@ -69,15 +71,18 @@ a {
     align-items: center;
     justify-content: center;
     width: 350px;
+    min-width: 350px;
     height: 150px;
     background-color: #5c5c5c;
 }
-.welcome button {
+.welcome button, .welcome a {
     width: 5rem;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 700;
     border-radius: 6px;
     border-color: #3882F6;
     margin-bottom: 1rem;
+    padding: 3px;
 }
