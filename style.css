@@ -187,3 +187,13 @@ navbar a {
     margin: 0;
     max-width: 400px;
 }
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 300;
+}
