@@ -1,7 +1,7 @@
 /* Style CSS File */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
- * { border: 1px solid red; } 
+ /* * { border: 1px solid red; }  */
 
 body {
     height: 100vh;
@@ -31,16 +31,6 @@ navbar {
     font-size: 24px;
     font-weight: 700;
     width: 350px;
-}
-
-@media only screen and (max-width: 725px) {
-    .logo{
-        display: flex;
-        justify-content: center;
-    }
-    nav {
-        justify-content: center;
-    }
 }
 nav {
     display: flex;
@@ -81,8 +71,22 @@ navbar a {
     font-size: 18px;
     color: #E5E7EB;
 }
+.hero button, .hero button a {
+    padding: 2px 6px;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: white;
+
+}
 /*Hero Image*/
 .hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
     width: 350px;
     height: 250px;
 }
