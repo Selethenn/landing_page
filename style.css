@@ -160,7 +160,7 @@ navbar a {
     flex-wrap: wrap;
     gap: 4rem;
     background-color: #3882F6;
-    padding: 0rem 10rem;
+    padding: 2rem 10rem;
     border-radius: 25px;
     max-width: 800px;
 }
@@ -179,5 +179,11 @@ navbar a {
 .cta_notice {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: .75;
+}
+.cta_notice h1, .cta_notice p {
+    margin: 0;
     max-width: 400px;
 }
